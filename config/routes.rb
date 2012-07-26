@@ -1,5 +1,5 @@
 Bakery2::Application.routes.draw do
-  route to: 'static_pages#home'
+  root to: 'static_pages#home'
 
   match '/about',   to: 'static_pages#help'
   match '/contact', to: 'static_pages#contact'
